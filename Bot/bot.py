@@ -9,6 +9,6 @@ bot = Client(
 @bot.on_message(filters.command('start') & filters.private)
  
 def command1(bot, message):
-    bot.on_message(message.chat.id, "Heya , I am Nezuko ")
+    bot.on_message(message.chat.id, "Nezuko is in maintenance , so please wait till the bot start's again  ")
 
 bot.run()
